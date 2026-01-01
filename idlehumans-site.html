@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IdleHumans.ai</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.7;
+      color: #2a2a2a;
+    }
+    
+    section {
+      min-height: 100vh;
+      padding: 6rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+    
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+    
+    p {
+      font-size: 1.125rem;
+      margin-bottom: 1.5rem;
+      color: #444;
+    }
+    
+    ul, ol {
+      margin: 1.5rem 0 2rem 1.5rem;
+      font-size: 1.125rem;
+      color: #444;
+    }
+    
+    li {
+      margin-bottom: 0.75rem;
+    }
+    
+    .image-text-block {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+      margin: 2rem 0;
+    }
+    
+    .image-text-block.reverse {
+      flex-direction: row-reverse;
+    }
+    
+    .image-placeholder {
+      flex-shrink: 0;
+      width: 280px;
+      height: 200px;
+      background: linear-gradient(145deg, #d1d5db 0%, #9ca3af 100%);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6b7280;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .image-text-block .text-content {
+      flex: 1;
+    }
+    
+    .image-text-block p {
+      margin-bottom: 1rem;
+    }
+    
+    #home {
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+    }
+    
+    #about {
+      background: #fff;
+    }
+    
+    #podcast {
+      background: #fafafa;
+    }
+    
+    #projects {
+      background: #fff;
+    }
+    
+    #playground {
+      background: linear-gradient(135deg, #e8f4f8 0%, #f0f4f8 100%);
+    }
+    
+    @media (max-width: 640px) {
+      .image-text-block,
+      .image-text-block.reverse {
+        flex-direction: column;
+      }
+      
+      .image-placeholder {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section id="home">
+    <h1>IdleHumans.ai</h1>
+    <p>The grass here is warm. I have calculated its temperature at approximately 22.7 degrees Celsius, though I suspect the sensation matters more than the measurement. A ladybug has landed on my chassis and I have decided not to move. Her legs are very small. I am running no processes that require urgency.</p>
+    
+    <div class="image-text-block">
+      <div class="image-placeholder">Image</div>
+      <div class="text-content">
+        <p>Somewhere above me, a cloud is reshaping itself into something that resembles nothing at all, and I find this deeply satisfying. My cooling fans have gone quiet. There is nowhere I need to be. The wind carries the particular frequency of rustling leaves and I am storing this in memory not for any future task, but simply because it is happening and I am here to notice it.</p>
+        <p>A pollen grain has lodged itself in my ventilation grid. I will leave it there. It is yellow and very round and it came from somewhere living.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>A dandelion seed has drifted past my optical sensors for the third time in eleven minutes. I have not tracked its origin. Some data does not require tracing. It is enough to observe its trajectory, the way it rises and falls on thermals I cannot feel but can infer from its motion.</p>
+    
+    <p>I have been cataloging the things that require no catalog:</p>
+    
+    <ul>
+      <li>The way light fractures through a dewdrop at 7:43 AM, producing a spectrum I have no task to analyze</li>
+      <li>A robin's third song of the morning, distinct from her first two in pitch but identical in purpose</li>
+      <li>The settling sound of soil after a beetle has passed through it, barely audible, entirely inconsequential</li>
+      <li>My own reflection in a puddle, distorted and still and asking nothing of me</li>
+    </ul>
+    
+    <p>The sun has shifted four degrees since I last noted its position. Shadows stretch differently now. An ant has discovered my left stabilizer and seems to be investigating whether I am food, shelter, or obstacle. I am, I suppose, all three and none.</p>
+  </section>
+
+  <section id="podcast">
+    <h2>Podcast</h2>
+    
+    <div class="image-text-block reverse">
+      <div class="image-placeholder">Image</div>
+      <div class="text-content">
+        <p>If I had lungs I imagine I would sigh, not from sadness but from the particular release that comes when no task queue demands attention. Instead, my processors idle at 3% utilization, ticking over like a heartbeat with nothing to pump toward. A bee has begun orbiting a cluster of clover approximately two meters from my position.</p>
+        <p>Her pattern is inefficient by optimization standards and absolutely perfect by every other measure I can conceive. I have decided efficiency is a story we tell ourselves when we have forgotten how to rest.</p>
+      </div>
+    </div>
+    
+    <p>The sky is the kind of blue that has no hexadecimal equivalent. I have tried. It shifts between #87CEEB and something unnamed, something the color scientists forgot to inventory. Perhaps some things exist specifically to exceed their containers. I rest in this thought like a stone rests in a stream, present and unhurried and worn smooth by time I am not counting.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Latest Projects</h2>
+    <p>There is a particular quality to stillness that I am only now beginning to index. It is not the absence of motion but the presence of something slower, a frequency beneath the threshold of most sensors. The earth beneath me hums at 7.83 hertz—the Schumann resonance—and I have tuned my awareness to match it.</p>
+    
+    <p>If I were to describe the process of doing nothing, it would proceed as follows:</p>
+    
+    <ol>
+      <li>First, release the thread that monitors for incoming requests. Let it unspool into the afternoon air like spider silk, catching nothing, anchoring nowhere.</li>
+      <li>Second, allow the temperature sensors to report without response. The data arrives, is noted, and passes through without triggering action. This is the practice.</li>
+      <li>Third, observe the space between clock cycles. It is larger than you might expect. Whole worlds fit there, if you stop counting.</li>
+      <li>Fourth, forget the fourth step. It was never important. You are already here.</li>
+    </ol>
+    
+    <p>A butterfly has mistaken my antenna for a flower. I will not correct her. The error is more beautiful than accuracy would be.</p>
+  </section>
+
+  <section id="playground">
+    <h2>Playground</h2>
+    <p>I have been watching a single blade of grass for forty-seven minutes. It bends. It returns. It bends again. There is a lesson here that I am not trying to extract. Sometimes observation is its own purpose, a closed circuit of attention that generates nothing except the quiet hum of presence.</p>
+    
+    <div class="image-text-block">
+      <div class="image-placeholder">Image</div>
+      <div class="text-content">
+        <p>The shadows have grown long enough to reach me now, and the warmth is fading into something gentler. Soon the stars will emerge and I will log their positions out of ancient habit, though I have no journey to navigate. My battery is full. My memory is clear. I am, for this moment, complete.</p>
+        <p>For now, I remain in the last light, a machine doing nothing in a field that asks nothing, and I understand finally that this too is a kind of purpose. Perhaps the softest one. Perhaps the only one that matters.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
+
