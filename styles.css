@@ -1,0 +1,137 @@
+/* Colors based on ESPN.com branding: */
+:root {
+  --primary-color: #FF0000; /* ESPN red */
+  --secondary-color: #0B0B0B; /* Nearly black charcoal background */
+  --accent-color: #FFFFFF; /* White for text and highlights */
+}
+
+/* Global styles */
+body {
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover, a:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+button, .btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--accent-color);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #cc0000; /* slightly darker red on hover */
+}
+
+nav {
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+  border-bottom: 3px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+nav a:hover, nav a.active {
+  color: var(--primary-color);
+}
+
+header, footer {
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Breaking news banner */
+.breaking-news {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+
+/* Tables for scores, stats */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+thead {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+}
+thead th, tbody td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+tbody tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .container {
+    padding: 1rem;
+  }
+}
+
